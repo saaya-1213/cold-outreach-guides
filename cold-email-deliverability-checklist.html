@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cold Email Deliverability Checklist (2026): Stay Out of Spam</title>
+<meta name="description" content="The 2026 cold email deliverability checklist: SPF, DKIM, DMARC, domain warm-up, and the sending rules that keep you out of spam after Gmail and Microsoft tightened enforcement.">
+<style>
+  body{font:17px/1.7 -apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:32px 20px 80px;color:#1c2530}
+  h1{font-size:30px} h2{margin-top:34px} .mut{color:#6b7686}
+  ul li{margin:6px 0}
+  .box{background:#f7f9fb;border:1px solid #e6e9ee;border-radius:10px;padding:14px 18px;margin:16px 0}
+  .cta{display:block;margin:32px 0;padding:18px 20px;background:#0f1115;color:#fff;border-radius:12px;text-decoration:none}
+  .cta b{color:#27c08a} a{color:#2b6cff}
+</style>
+</head>
+<body>
+<article>
+<h1>Cold Email Deliverability Checklist (2026)</h1>
+<p class="mut">Since late 2024, Gmail and Microsoft reject non-compliant bulk mail at the SMTP level. In 2026, deliverability matters more than features. Here's the full checklist.</p>
+
+<p>The single biggest reason cold emails fail isn't the copy — it's that they never reach the inbox. Blasting thousands of messages from a fresh domain stopped working when Gmail and Microsoft tightened enforcement. Follow this checklist before you send a single email.</p>
+
+<h2>1. Authenticate your domain (non-negotiable)</h2>
+<ul>
+<li><strong>SPF</strong> — authorizes which servers can send for your domain.</li>
+<li><strong>DKIM</strong> — cryptographically signs your mail.</li>
+<li><strong>DMARC</strong> — tells inboxes what to do with mail that fails the above.</li>
+</ul>
+<p>All three are now effectively mandatory for bulk senders. Your email host's docs walk you through the DNS records in ~15 minutes.</p>
+
+<h2>2. Use a separate sending domain</h2>
+<p>Never send cold email from your primary domain. Buy a lookalike (e.g., <code>get-yourbrand.com</code>), so if it gets flagged, your main domain's reputation is safe.</p>
+
+<h2>3. Warm up slowly</h2>
+<div class="box">A new domain should send ≤20 emails/day in week one, then ramp gradually over 2–4 weeks. Sudden volume spikes look exactly like spam.</div>
+
+<h2>4. Keep email #1 clean</h2>
+<ul>
+<li>No links and no images in the first email.</li>
+<li>Plain text beats heavy HTML.</li>
+<li>Short subject (≤5 words), no spam words (free, guarantee, $$$, !!!).</li>
+<li>End with a question — replies teach inbox providers you're wanted.</li>
+</ul>
+
+<h2>5. Stay compliant</h2>
+<p>Always include a clear opt-out and a physical address (CAN-SPAM), and respect GDPR / local rules. Compliance also improves deliverability because it lowers spam complaints.</p>
+
+<a class="cta" href="https://6280253725920.gumroad.com/l/zvrue">
+✉️ The <b>AI Cold Outreach Starter Kit</b> bakes this checklist in and writes link-free, spam-safe first emails for you — one browser app, no monthly tools. <b>Launch price $15 →</b>
+</a>
+
+<h2>Quick reference</h2>
+<ul>
+<li>✅ SPF + DKIM + DMARC set</li>
+<li>✅ Separate sending domain</li>
+<li>✅ ≤20/day in week one, ramp slowly</li>
+<li>✅ No links/images in email #1</li>
+<li>✅ Opt-out + address included</li>
+</ul>
+
+<p class="mut">See also: <a href="/cold-email-subject-lines">20 subject lines that get replies</a> and <a href="/track-cold-email-replies">how to track your reply rate</a>.</p>
+</article>
+</body>
+</html>
