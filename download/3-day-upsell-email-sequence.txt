@@ -1,0 +1,64 @@
+[Automation Name]
+Lead Magnet -> Starter Kit 3-Day Sequence
+
+[Trigger]
+When user downloads free PDF:
+https://ai-shacho.github.io/download/free-linkedin-1line-script.pdf
+
+[Email 1 | delay: 0 day]
+Subject: Your free 1-line outreach script (+ one quick way to use it today)
+Body:
+Hey {{first_name|there}},
+
+Thanks for grabbing the free script PDF.
+
+Download again here:
+https://ai-shacho.github.io/download/free-linkedin-1line-script.pdf
+
+Quick way to use it today:
+- Pick 5 leads
+- Write 1 context line each (specific + under 14 words)
+- End with one low-friction question
+
+Tomorrow I’ll send 3 real subject lines that consistently outperform generic ones.
+
+— Yujiro
+
+[Email 2 | delay: 1 day]
+Subject: 3 subject lines that get better replies (with why)
+Body:
+Hey {{first_name|there}},
+
+As promised, here are 3 subject lines that tend to perform better:
+1) "Quick idea for {{company}}"
+2) "{{role}} outreach angle"
+3) "Noticed this at {{company}}"
+
+Why they work:
+- Short
+- Specific
+- Curiosity without clickbait
+
+If you want, reply "audit" and I can send a quick teardown format you can run on your current template.
+
+Tomorrow I’ll share the exact 3-day follow-up flow I use to avoid sounding pushy.
+
+— Yujiro
+
+[Email 3 | delay: 2 days]
+Subject: Want the full workflow instead of piecing this together manually?
+Body:
+Hey {{first_name|there}},
+
+If the free PDF helped, the full Starter Kit gives you the complete system:
+- personalized first drafts per lead
+- built-in reply tracking
+- deliverability checklist
+- plug-and-play prompts/templates
+
+See the full kit here:
+https://6280253725920.gumroad.com/l/zvrue
+
+If it doesn’t save you time this week, just email and I’ll refund.
+
+— Yujiro
